@@ -1,0 +1,27 @@
+[2021-10-26 16:49:07.155][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2021-10-26 16:49:07.155][INF] The COM:Core ver is 6.1.6.45, 2021_03_02. Async:1.
+[2021-10-26 16:49:07.155][INF] This HCNetSDK ver is 6.1.6.45 Ver 2021_03_02.
+[2021-10-26 16:49:07.155][INF] Login dev 192.168.1.64:8000.
+[2021-10-26 16:49:07.155][INF] dwTotalNum[2048]
+[2021-10-26 16:49:07.155][INF] Private connect 192.168.1.64:8000 sock=131 this=0x1c2d444 cmd=0x10000 port=54060
+[2021-10-26 16:49:07.155][INF] LogonDev1 in[192.168.1.64:8000]
+[2021-10-26 16:49:07.155][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/consoleDemo/linux64/proj/../lib/libcrypto.so], hHandleRet[29586304]
+[2021-10-26 16:49:07.156][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/consoleDemo/linux64/proj/../lib/libssl.so], hHandleRet[29588048]
+[2021-10-26 16:49:07.156][INF] SSLTRANSAPI::LoadAPI, libeay, Load Real Path[/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/consoleDemo/linux64/proj/../lib/libcrypto.so]
+[2021-10-26 16:49:07.156][INF] SSLTRANSAPI::LoadAPI, libssl, Load Real Path[/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/consoleDemo/linux64/proj/../lib/libssl.so]
+[2021-10-26 16:49:07.156][INF] SSLTRANSAPI::IsAllAPILoaded, OpenSSL_version Unload
+[2021-10-26 16:49:07.156][INF] OpenSSL, Not All Function Loaded!
+[2021-10-26 16:49:07.156][INF] SSLTRANSAPI::PrintVersion, SSLeay_version info [OpenSSL 1.0.2t  10 Sep 2019]
+[2021-10-26 16:49:07.156][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[0], m_fnClientMethodV23
+[2021-10-26 16:49:15.173][DBG] CComBase::Load, Load szDllPath[/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/consoleDemo/linux64/proj/../lib/HCNetSDKCom/libHCPreview.so] SUCC
+[2021-10-26 16:49:15.173][INF] AbilityAnalyze---Init-- start
+[2021-10-26 16:49:15.174][DBG] AbilityAnalyze---Init-- over, DeviceList path [/home/jjj/NGCLAB/CH-HCNetSDKV6.1.6.45_build20210302_linux64/consoleDemo/linux64/lib/HCNetSDKCom/LocalXml/DeviceList.xml], load result[0]
+[2021-10-26 16:49:15.174][INF] The COM:Preview ver is 6.1.6.45, 2021_03_02.
+[2021-10-26 16:49:15.174][INF] Private connect 192.168.1.64:8000 sock=131 this=0x1c2d444 cmd=0x30000 port=54146
+[2021-10-26 16:49:15.179][INF] ID-IP-CHAN[0-192.168.1.64-1] [CGetTCPStream::Start] Stream Head Data Callback Start
+[2021-10-26 16:49:15.179][INF] ID-IP-CHAN[0-192.168.1.64-1] [CGetTCPStream::Start] Stream Head Data Callback End
+[2021-10-26 16:49:15.179][DBG] ID-IP-CHAN[0-192.168.1.64-1] RTP Format
+[2021-10-26 16:49:20.188][INF] CTransUnitMgr::UnloadTransUnitLib
+[2021-10-26 16:49:20.188][ERR] Interim_UnRigisterTimerProxy, pProxy == NULL, iProxyID[1]
+[2021-10-26 16:49:20.190][DBG] CUserMgr::UnRegisterHeartProxy[0]
+[2021-10-26 16:49:20.190][INF] Private connect 192.168.1.64:8000 sock=131 this=0x1c2d444 cmd=0x10100 port=54198
