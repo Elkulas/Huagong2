@@ -1,35 +1,35 @@
-¡¾¿âÎÄ¼ş¼ÓÔØËµÃ÷¡¿
-1. libÎÄ¼ş¼ĞÀïÃæËùÓĞ¿âÎÄ¼şlibhcnetsdk.so¡¢libHCCore.so¡¢libssl.so¡¢libcrypto.soÒÔ¼°HCNetSDKComÎÄ¼ş¼Ğ¶¼ĞèÒª¼ÓÔØµ½¹¤³ÌÖĞ¡£
+ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½
+1. libï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¿ï¿½ï¿½Ä¼ï¿½libhcnetsdk.soï¿½ï¿½libHCCore.soï¿½ï¿½libssl.soï¿½ï¿½libcrypto.soï¿½Ô¼ï¿½HCNetSDKComï¿½Ä¼ï¿½ï¿½Ğ¶ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½
 
-2. HCNetSDKComÎÄ¼ş¼ĞÈç¹ûºÍlibhcnetsdk.so¡¢libhpr.so¡¢libHCCoreÎÄ¼ş¡¢¿ÉÖ´ĞĞÎÄ¼ş²»ÔÚÍ¬¼¶Ä¿Â¼£¬»òÕß¼ÓÔØÊ§°Ü£¬¿ÉÒÔµ÷ÓÃNET_DVR_SetSDKInitCfg(enumTypeÀàĞÍ¸³ÖµÎª2£¬lpInBuff¶ÔÓ¦½á¹¹ÌåNET_DVR_LOCAL_SDK_PATH)ÉèÖÃ×é¼ş¿âËùÔÚÂ·¾¶¡£
+2. HCNetSDKComï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½libhcnetsdk.soï¿½ï¿½libhpr.soï¿½ï¿½libHCCoreï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½Ä¿Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½ï¿½Ôµï¿½ï¿½ï¿½NET_DVR_SetSDKInitCfg(enumTypeï¿½ï¿½ï¿½Í¸ï¿½ÖµÎª2ï¿½ï¿½lpInBuffï¿½ï¿½Ó¦ï¿½á¹¹ï¿½ï¿½NET_DVR_LOCAL_SDK_PATH)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½
 
-3. libcrypto.soºÍlibssl.soÊÇ¿ªÔ´¿â£¬Èç¹û¿âÎÄ¼ş¼ÓÔØÊ§°Ü£¬¿ÉÒÔµ÷ÓÃNET_DVR_SetSDKInitCfg(enumTypeÀàĞÍ¸³ÖµÎª3£¬lpInBuff¶ÔÓ¦libcrypto.soËùÔÚµÄÂ·¾¶×Ö·û´®)¡¢NET_DVR_SetSDKInitCfg(enumTypeÀàĞÍ¸³ÖµÎª4£¬lpInBuff¶ÔÓ¦libssl.soËùÔÚµÄÂ·¾¶×Ö·û´®)Ö¸¶¨ÏÂÕâĞ©¿âÎÄ¼ş¼ÓÔØÂ·¾¶¡£
+3. libcrypto.soï¿½ï¿½libssl.soï¿½Ç¿ï¿½Ô´ï¿½â£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½ï¿½Ôµï¿½ï¿½ï¿½NET_DVR_SetSDKInitCfg(enumTypeï¿½ï¿½ï¿½Í¸ï¿½ÖµÎª3ï¿½ï¿½lpInBuffï¿½ï¿½Ó¦libcrypto.soï¿½ï¿½ï¿½Úµï¿½Â·ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½)ï¿½ï¿½NET_DVR_SetSDKInitCfg(enumTypeï¿½ï¿½ï¿½Í¸ï¿½ÖµÎª4ï¿½ï¿½lpInBuffï¿½ï¿½Ó¦libssl.soï¿½ï¿½ï¿½Úµï¿½Â·ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½)Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ©ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½
 
-¡¾Â·¾¶ÉèÖÃµÄJavaÊ¾Àı´úÂë¡¿
-//ÕâÀïÊÇ¿âµÄ¾ø¶ÔÂ·¾¶£¬Çë¸ù¾İÊµ¼ÊÇé¿öĞŞ¸Ä£¬×¢Òâ¸ÄÂ·¾¶±ØĞëÓĞ·ÃÎÊÈ¨ÏŞ
+ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½JavaÊ¾ï¿½ï¿½ï¿½ï¿½ï¿½ë¡¿
+//ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½Ä¾ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ş¸Ä£ï¿½×¢ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ·ï¿½ï¿½ï¿½È¨ï¿½ï¿½
 
-//ÉèÖÃHCNetSDKCom×é¼ş¿âËùÔÚÂ·¾¶		
+//ï¿½ï¿½ï¿½ï¿½HCNetSDKComï¿½ï¿½ï¿½ï¿½	
 String strPathCom = "/home/hik/Desktop/JavaDemoLinux/lib";
 HCNetSDK.NET_DVR_LOCAL_SDK_PATH struComPath = new HCNetSDK.NET_DVR_LOCAL_SDK_PATH();
 System.arraycopy(strPathCom.getBytes(), 0, struComPath.sPath, 0, strPathCom.length());
 struComPath.write();
 hCNetSDK.NET_DVR_SetSDKInitCfg(2, struComPath.getPointer());
 
-//ÉèÖÃlibcrypto.soËùÔÚÂ·¾¶	
+//ï¿½ï¿½ï¿½ï¿½libcrypto.soï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½	
 HCNetSDK.BYTE_ARRAY ptrByteArrayCrypto = new HCNetSDK.BYTE_ARRAY(256);
 String strPathCrypto = "/home/hik/Desktop/JavaDemoLinux/lib/libcrypto.so";		
 System.arraycopy(strPathCrypto.getBytes(), 0, ptrByteArrayCrypto.byValue, 0, strPathCrypto.length());
 ptrByteArrayCrypto.write();
 hCNetSDK.NET_DVR_SetSDKInitCfg(3, ptrByteArrayCrypto.getPointer());
 
-//ÉèÖÃlibssl.soËùÔÚÂ·¾¶	
+//ï¿½ï¿½ï¿½ï¿½libssl.soï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½	
 HCNetSDK.BYTE_ARRAY ptrByteArraySsl = new HCNetSDK.BYTE_ARRAY(256);	
 String strPathSsl = "/home/hik/Desktop/JavaDemoLinux/lib/libssl.so";	
 System.arraycopy(strPathSsl.getBytes(), 0, ptrByteArraySsl.byValue, 0, strPathSsl.length());
 ptrByteArraySsl.write();
 hCNetSDK.NET_DVR_SetSDKInitCfg(4, ptrByteArraySsl.getPointer());
 
-¡¾Â·¾¶ÉèÖÃµÄC++Ê¾Àı´úÂë¡¿
+ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½C++Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ë¡¿
 char cryptoPath[2048] = {0};
 sprintf(cryptoPath, "/home/test/Desktop/alarm_demo/libcrypto.so");
 NET_DVR_SetSDKInitCfg(NET_SDK_INIT_CFG_LIBEAY_PATH, cryptoPath);
@@ -39,5 +39,5 @@ sprintf(sslPath, "/home/test/Desktop/alarm_demo/libssl.so");
 NET_DVR_SetSDKInitCfg(NET_SDK_INIT_CFG_SSLEAY_PATH, sslPath); 
     
 NET_DVR_LOCAL_SDK_PATH struComPath = {0};
-sprintf(struComPath.sPath, "/home/test/Desktop/alarm_demo"); //HCNetSDKComÎÄ¼ş¼ĞËùÔÚµÄÂ·¾¶
+sprintf(struComPath.sPath, "/home/test/Desktop/alarm_demo"); //HCNetSDKComï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½Â·ï¿½ï¿½
 NET_DVR_SetSDKInitCfg(NET_SDK_INIT_CFG_SDK_PATH, &struComPath);
